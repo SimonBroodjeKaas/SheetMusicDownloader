@@ -76,6 +76,7 @@ def create_word_document():
   # r = p.add_run()
   # r.add_picture('teste.png',width=Inches(4.0), height=Inches(.7))
   doc.save('MuseScore.docx')
+  os.startfile('MuseScore.docx')
 
 
 def download_sheet_music(url):
